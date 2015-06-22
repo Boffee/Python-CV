@@ -19,9 +19,13 @@ lib64/
 parts/
 sdist/
 var/
+venv/
 *.egg-info/
 .installed.cfg
 *.egg
+
+# Data files
+data/
 
 # PyInstaller
 #  Usually these files are written by a python script from a template

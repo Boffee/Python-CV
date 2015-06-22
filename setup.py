@@ -7,7 +7,7 @@ config = {
     'description': 'Python Computer Vision',
     'author': 'Zhenbang Li',
     'packages': [],
-    'requires': ['NumPy', 'Matplotlib', 'SciPy']
+    'requires': ['NumPy', 'Matplotlib', 'SciPy', 'PIL']
 }
 
 setup(**config)

@@ -1,9 +1,13 @@
 from PIL import Image
 from pylab import *
 from random import randint
+import parentpath
+import os
+
+file_path = os.path.join(parentpath.DATA_DIR, 'empire.jpg')
 
 # read image to array
-im = array(Image.open('../../data/empire.jpg').convert('L'))
+im = array(Image.open(file_path).convert('L'))
 
 # plot the image
 imshow(im)

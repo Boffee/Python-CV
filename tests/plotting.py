@@ -6,7 +6,7 @@ import os
 
 file_path = os.path.join(parentpath.DATA_DIR, 'empire.jpg')
 
-# read image to array
+# read image to array on grayscale 
 im = array(Image.open(file_path).convert('L'))
 
 # plot the image
